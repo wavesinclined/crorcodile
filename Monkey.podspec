@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Monkey"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A short description of Monkey."
 
   # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-
+  s.license = "No License"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-s.source_files  = "Crocodile/**/*".{swift}"
+s.source_files  = "Crocodile/**/*.{swift}"
 
 
   # s.public_header_files = "Classes/**/*.h"
